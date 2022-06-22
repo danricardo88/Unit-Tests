@@ -41,13 +41,13 @@ const calculator = (number1, number2) => {
     div: Math.floor(number1 / number2),
     sub: number1 - number2,
   };
-  return key
+  return key;
 };
 
 const arrayGenerator = (type, object) => {
   if (type === 'keys') {
     return Object.keys(object);
-  };
+  }
 
   if (type === 'values') {
     return Object.values(object);
